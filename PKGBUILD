@@ -1,7 +1,7 @@
 # Maintainer: Mladen Milinkovic <maxrd2@smoothware.net>
 
 pkgname=mingw-w64-kwindowsystem
-pkgver=5.76.0
+pkgver=5.85.0
 pkgrel=1
 arch=(any)
 pkgdesc="Access to the windowing system (mingw-w64)"
@@ -12,7 +12,7 @@ makedepends=(mingw-w64-extra-cmake-modules mingw-w64-qt5-tools)
 options=(staticlibs !strip !buildflags)
 url="https://community.kde.org/Frameworks"
 source=("http://download.kde.org/stable/frameworks/${pkgver%.*}/kwindowsystem-${pkgver}.tar.xz"{,.sig})
-sha256sums=('8dced74012bed3f33c3c51874aa9c3a57093573c1c0e263b758cefa96c26f7b7'
+sha256sums=('6db43758f1508d30d840623b6c505aa3c8d326dd8fa60c9e9cdcd1feb469661e'
             'SKIP')
 validpgpkeys=(53E6B47B45CEA3E0D5B7457758D0EE648A48B3BB) # David Faure <faure@kde.org>
 
